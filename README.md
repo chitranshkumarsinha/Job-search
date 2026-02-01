@@ -90,30 +90,24 @@ NODE_ENV=development
 MONGODB_URI=your_mongodb_connection_string
 
 # Authentication
-JWT_SECRET=your_jwt_secret_key
-JWT_EXPIRE=7d
-
-# Email Configuration (for notifications)
-SMTP_HOST=your_smtp_host
-SMTP_PORT=587
-SMTP_USER=your_email@example.com
-SMTP_PASS=your_email_password
-
-# Cloud Storage (for resume uploads)
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_cloudinary_key
-CLOUDINARY_API_SECRET=your_cloudinary_secret
+CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
 
 # WebRTC/Video Calling
-PEER_SERVER_HOST=your_peer_server_host
-PEER_SERVER_PORT=9000
+STREAM_API_KEY=
+STREAM_API_SECRET=
+
+#inngest
+INNGEST_EVENT_KEY=
+INNGEST_SIGNING_KEY=
 ```
 
 Create a `.env` file in the frontend directory:
 
 ```env
-REACT_APP_API_URL=http://localhost:5000
-REACT_APP_SOCKET_URL=http://localhost:5000
+VITE_CLERK_PUBLISHABLE_KEY=
+VITE_STREAM_API_KEY=
+VITE_API_URL=
 ```
 
 ### 4. Run the Application
@@ -180,36 +174,6 @@ Job-search/
 └── README.md
 ```
 
-## 🔑 Key Functionalities
-
-### User Authentication
-- User registration and login
-- JWT-based authentication
-- Password encryption with bcrypt
-- Email verification (optional)
-
-### Job Management
-- Create, read, update, delete job postings
-- Advanced search with filters
-- Job categorization and tagging
-- Saved jobs feature
-
-### Application Process
-- One-click job applications
-- Application status tracking
-- Resume attachment
-- Cover letter submission
-
-### Interview Scheduling
-- Calendar integration
-- Automated email notifications
-- Video interview links
-- Code editor session management
-
-## 🎨 Screenshots
-
-> Add screenshots of your application here to showcase the UI
-
 ## 🚀 Deployment
 
 The application is deployed on Render: [https://new-job-search-1.onrender.com/](https://new-job-search-1.onrender.com/)
@@ -249,41 +213,21 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 **Chitransh Kumar Sinha**
 
 - GitHub: [@chitranshkumarsinha](https://github.com/chitranshkumarsinha)
-- LinkedIn: [Add your LinkedIn profile]
-- Email: [Add your email]
+- LinkedIn: [linkedin.com/in/cksinha121]
+- Email: [cksinha844115@gmail.com]
 
-## 🙏 Acknowledgments
-
-- Thanks to all contributors who have helped shape this project
-- Inspired by modern job platforms like LinkedIn and Indeed
-- Built with passion for improving the remote hiring process
-
-## 📧 Contact
-
-For any queries or suggestions, feel free to reach out:
-
-- Create an issue in this repository
-- Email: [your-email@example.com]
 
 ## 🔮 Future Enhancements
 
 - [ ] AI-powered job recommendations
 - [ ] Resume builder with templates
 - [ ] Skill assessment tests
-- [ ] Company review system
-- [ ] Mobile application (React Native)
-- [ ] Advanced analytics dashboard
-- [ ] Multi-language support
-- [ ] Social media integration
 
 ---
 
