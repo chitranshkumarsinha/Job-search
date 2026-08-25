@@ -143,16 +143,6 @@ The application is live and deployed on **Render**:
 - [ ] Resume builder with templates
 - [ ] Skill assessment tests
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## 👨‍💻 Author
 
 **Chitransh Kumar Sinha**
@@ -160,11 +150,3 @@ Contributions, issues, and feature requests are welcome!
 - GitHub: [@chitranshkumarsinha](https://github.com/chitranshkumarsinha)
 - LinkedIn: [linkedin.com/in/cksinha121](https://linkedin.com/in/cksinha121)
 - Email: cksinha844115@gmail.com
-
-## 📄 License
-
-This project currently has no explicit license file. Consider adding one (e.g., MIT) if you plan to accept outside contributions.
-
----
-
-⭐ If you find this project useful, consider giving it a star on [GitHub](https://github.com/chitranshkumarsinha/Job-search)!
